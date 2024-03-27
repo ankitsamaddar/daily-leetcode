@@ -23,7 +23,7 @@ class Solution {
           nums[i] > 0 && nums[i] <= n &&
           // not already in right position
           nums[nums[i] - 1] != nums[i]
-        ) {
+      ) {
         // swap numbers to correct position
         int temp          = nums[nums[i] - 1];
         nums[nums[i] - 1] = nums[i];
